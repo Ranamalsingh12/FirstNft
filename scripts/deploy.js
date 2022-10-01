@@ -6,7 +6,7 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  // 1.Somehow tell the script what we want to deploy -> the "NFTee.sol" contract.
+  // 1.Somehow tell the script what we want to deploy -> the "NFT.sol" contract.
 
   const contract = await ethers.getContractFactory("NFT");
 
