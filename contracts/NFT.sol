@@ -16,5 +16,7 @@ contract NFT is ERC721{
         _mint(msg.sender,2);
         _mint(msg.sender,3);
         _mint(msg.sender,4);
+        _mint(msg.sender,5);
+        _mint(msg.sender,6);
     }
 }
